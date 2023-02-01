@@ -4,4 +4,7 @@ public class rectangle extends shape {
     public rectangle(int x, int y){
         super(x, y);
     }
+    public int rectangle_area(){
+        return x * y ;
+    }
 }
