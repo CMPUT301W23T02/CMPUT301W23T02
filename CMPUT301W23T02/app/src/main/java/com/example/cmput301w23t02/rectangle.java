@@ -7,4 +7,8 @@ public class rectangle extends shape {
     public int rectangle_area(){
         return x * y ;
     }
+    public String message(){
+        return "just practicing";
+    }
+
 }
