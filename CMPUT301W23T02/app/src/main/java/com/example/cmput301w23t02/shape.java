@@ -8,3 +8,10 @@ public abstract class shape {
         this.y = y;
     }
 }
+
+public class rectangle extends shape {
+    public rectange(int x, int y){
+        super(x, y);
+    }
+}
+
